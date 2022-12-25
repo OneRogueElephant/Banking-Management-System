@@ -12,15 +12,15 @@ struct account {
 	long accountNumber;
 };
 
-int setAccountType();
-char* getAccountType();
+int setAccountType(*, *,);
+char* getAccountType(*);
 
 int setAccountNumber(void);
-long getAccountNumber();
+long getAccountNumber(*);
 
-int setAccountPin();
-int updateAccountPin();
-int getAccountPin();
+int setAccountPin(*, int); 
+int updateAccountPin(*, int);
+int getAccountPin(*, int);
 
-double updateAccountAmount();
-double getAccountAmount();
+double updateAccountAmount(*, double);
+double getAccountAmount(*);
